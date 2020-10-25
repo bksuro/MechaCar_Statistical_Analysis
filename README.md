@@ -54,3 +54,22 @@ Does the current manufacturing data meet this design specification for all manuf
     - !["summary by lot"](./Images/suspension_coil_lot_summary.png "Summary for PSI by lot")
     
     
+## T-Tests on Suspension Coils
+### Overall statistics for suspension coils using t-test show similar results as the summarize() function used above
+  - !["Total t-test summary"](./Images/suspension_coil_total_ttest.png "total t-test summary")
+  
+### Individual statistics for suspension coils show similar results as the summarize() function
+#### lot1 statistics
+  - !["Lot1 t-test summary"](./Images/suspension_coil_lot1_ttest.png "lot 1 t-test summary")
+  
+  
+#### lot2 statistics
+  - !["Lot2 t-test summary"](./Images/suspension_coil_lot2_ttest.png "lot 2 t-test summary")
+  
+  
+#### lot3 statistics
+  - !["Lot3 t-test summary"](./Images/suspension_coil_lot3_ttest.png "lot 3 t-test summary")
+  
+### Summary for t-tests
+Based on the above information shown we can conclude the t-test show that the variance for overall lot is within the 100 pounds per square inch. However individual lot summary shows that lot1 and lot2 are well within the limit but lot3 is way outside the limit of 100 PSI.
+
