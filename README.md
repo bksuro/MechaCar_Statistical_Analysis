@@ -40,3 +40,17 @@ Software: R
   - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
     - This model shows that Intercept is very significant, so it will not predict mpg effectively.
     - This model tells us there might be variables that are not in our dataset that need to be collected and observed.
+
+## Summary Statistics on Suspension
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
+
+Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+  - Based on the analysis on the current data on suspension coils we see that the overall design specifications are met as the variance of PSI is 76.23459, which is less than the 100.
+    - !["total_summary"](./Images/suspension_coil_total_summary.png "Total summary for PSI")
+    
+    
+  - However variance by lots show that lot 1 and lot 2 are well within the limit and lot 3 is not.
+    - !["summary by lot"](./Images/suspension_coil_lot_summary.png "Summary for PSI by lot")
+    
+    
