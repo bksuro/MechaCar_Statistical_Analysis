@@ -79,8 +79,8 @@ We could remove the data points AWD, spoler_angle, and ground_clearance and migh
 We might also split mpg into mpg_city and mpg_highway to show the values to compare with other similar competiton cars in market.
 Some of the new data points to collect that might affect mpg are as follows, horse power, and cylinders. 
 
-Null hypothesis and alternate hypothesis for mpg analysis we should use the slope of the linear model
-Null hypothesis and alternate hypothesis for safety rating and maintenance cost should use a predetrmined industry standard.
+- Null hypothesis and alternate hypothesis for mpg analysis we should use the slope of the linear model.
+- Null hypothesis and alternate hypothesis for safety rating and maintenance cost should use a predetermined industry standard.
 
 Individual analysis on the safety rating and maintenance cost using t-test would show how reliable MachaCar model is compared to the competetion.
 
