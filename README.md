@@ -19,3 +19,4 @@
 	
   - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
     - This model shows that Intercept is very significant, so it will not predict mpg effectively.
+	- This model tells us there might be variables that are not in our dataset that need to be collected and observed.
