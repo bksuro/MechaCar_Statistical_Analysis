@@ -17,8 +17,8 @@ Software: R
 
 ## Testing Hypotheses
   linear regression tests the following hypotheses:
-  H0 : The slope of the linear model is zero, or m = 0
-  Ha : The slope of the linear model is not zero, or m ≠ 0
+   - H0 : The slope of the linear model is zero, or m = 0
+   - Ha : The slope of the linear model is not zero, or m ≠ 0
 
 ## Linear Regression to Predict
 
