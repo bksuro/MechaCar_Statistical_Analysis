@@ -12,8 +12,8 @@ Data analytics will be done on the following:
 A summary interpretation of the findings for each statistical analysis is shown below.
 
 ## Resources
-Data: MechaCar_mpg.csv, Suspension_Coil.csv
-Software: R 
+- Data: MechaCar_mpg.csv, Suspension_Coil.csv
+- Software: R 
 
 ## Testing Hypotheses
   linear regression tests the following hypotheses:
