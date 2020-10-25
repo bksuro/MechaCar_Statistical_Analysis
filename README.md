@@ -73,3 +73,15 @@ Does the current manufacturing data meet this design specification for all manuf
 ### Summary for t-tests
 Based on the above information shown we can conclude the t-test show that the variance for overall lot is within the 100 pounds per square inch. However individual lot summary shows that lot1 and lot2 are well within the limit but lot3 is way outside the limit of 100 PSI.
 
+## Study Design: MechaCar vs Competition
+Based on the current data analysis for MechaCar we can show that the significant data points for mpg are vehicle_length, and ground_clearance. Since the intercept is also significant, we know that we are missing few other data points that are not collected at this time. 
+We could remove the data points AWD, spoler_angle, and ground_clearance and might want to keep vehicle_weight for calculating mpg multiple variable linear regression. 
+We might also split mpg into mpg_city and mpg_highway to show the values to compare with other similar competiton cars in market.
+Some of the new data points to collect that might affect mpg are as follows, horse power, and cylinders. 
+
+Null hypothesis and alternate hypothesis for mpg analysis we should use the slope of the linear model
+Null hypothesis and alternate hypothesis for safety rating and maintenance cost should use a predetrmined industry standard.
+
+Individual analysis on the safety rating and maintenance cost using t-test would show how reliable MachaCar model is compared to the competetion.
+
+We should use Multi variable linear regression tests for significance analysis of mpg_city and mpg_highway. Also use t-test/summarize tests to determine how maintenance cost and safety rating of MechaCar are better than the competetion.
